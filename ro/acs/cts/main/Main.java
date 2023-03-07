@@ -19,13 +19,6 @@ public class Main {
             Manager manager = new Manager(new Creator(), new Inserter(), new DataReader());
             manager.run(connection);
 
-            /*Creator creator = new Creator();
-            creator.createTable(connection);
-            Inserter inserter = new Inserter();
-            inserter.insertData(connection);
-            DataReader dataReader = new DataReader();
-            dataReader.readData(connection);*/
-
             connection.close();
         } catch (Exception e) {
             e.printStackTrace();

@@ -22,11 +22,4 @@ public class Manager {
         dataReader.readData(connection);
     }
 
-
-/*Creator creator = new Creator();
-    creator.createTable(connection);
-    Inserter inserter = new Inserter();
-    inserter.insertData(connection);
-    DataReader dataReader = new DataReader();
-    dataReader.readData(connection);*/
 }
